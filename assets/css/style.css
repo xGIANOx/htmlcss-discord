@@ -90,8 +90,8 @@ body{
 }
 
 .card{
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 
 
@@ -120,11 +120,50 @@ body{
 }
 
 .pre_footer.debug{
-    height: 40rem;
-    background-color: green;
+    
     margin: 1rem 0;
     width: 100%;
-    border: 1px dashed black;
+    
+}
+
+#pre_footer_title{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pre_footer_p{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+}
+
+#adventure{
+    text-align: center;
+    margin-top: 3rem;
+    background-image: url("../img/stars.svg");
+    background-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    background-repeat: no-repeat;
+    width: 40%;
+}
+
+.light_blue_button{
+    background-color: #8ea1e1;
+    border-radius: 20px;
+    padding: 0.75rem 1.25rem;
+    border: 0;
+    font-size: 1rem;
+    color: white;
+    width: 17%;
+    margin: auto;
+    margin-top: 2rem;
 }
 
 .app_footer.debug{
