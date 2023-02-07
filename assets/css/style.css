@@ -91,7 +91,6 @@ body{
 
 .card{
     margin-top: 10rem;
-    margin-bottom: 10rem;
 }
 
 
@@ -123,7 +122,11 @@ body{
     
     margin: 1rem 0;
     width: 100%;
-    
+    margin-bottom: 8rem;
+}
+
+#pre-footer{
+    background-color: lightgray;
 }
 
 #pre_footer_title{
@@ -161,34 +164,45 @@ body{
     border: 0;
     font-size: 1rem;
     color: white;
-    width: 17%;
     margin: auto;
     margin-top: 2rem;
 }
 
 .app_footer.debug{
-    background-color: black;
+    background-color: #23272a;
 }
 
 .footer_l.debug{
-    height: 25rem;
-    background-color: violet;
     margin: 1rem 0;
     width: calc(100% / 3);
-    border: 1px dashed black;
 }
 
 .footer_r.debug{
-    height: 25rem;
-    background-color: aqua;
     margin: 1rem 0;
     width: calc(100% / 4 - 1.5rem);
-    border: 1px dashed black;
     margin-left: 0.25rem;
+    color: white;
+    line-height: 2rem;
 }
 
+#footer_title{
+    color: #6f86d5;
+    width: 80%;
+}
+
+.li_title{
+    color: #6f86d5;
+}
+
+.italy{
+    margin-top: 1rem;
+}
+.language{
+    color: white;
+    margin-left: 0.5rem;
+    font-size: 0.75rem;
+}
 .page_end.debug{
-    background-color: orange;
     margin-top: 2rem;
     padding: 0.75rem 0;
     justify-content: space-between;
@@ -197,13 +211,19 @@ body{
 
 .logo_end.debug{
     padding: 0.5rem 0;
-    border: 1px dashed black;
 }
 
-.bottone.debug{
-    padding: 0.5rem 0;
-    border: 1px dashed black;
+.register_button{
+    background-color: #8ea1e1;
+    border-radius: 20px;
+    padding: 0.75rem 1.25rem;
+    border: 0;
+    font-size: 1rem;
+    color: white;
+    margin: auto;
 }
+
+
 
 
 
