@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+/* #endregion_general */
+
+/* #region_utilities */
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.txt_center{
+    text-align: center;
+}
+/* #endregion_utilities */
+
+#app_header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* #region_debug */
+
+#app_header{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+}
+
+.app_nav.debug{
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+
+.menu.debug{
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+.login.debug{
+    background-color: white;
+    border-radius: 20px;
+    justify-content: flex-end;
+    padding: 0.75rem 0.75rem;
+    border: 0;
+    
+}
+
+.heading.debug{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.download_button{
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+}
+.white_button{
+    background-color: white;
+    border-radius: 20px;
+    padding: 0.75rem 1.25rem;
+    border: 0;
+    font-size: 1rem;
+}
+
+.open_button{
+    background-color: #23272a;
+    border-radius: 20px;
+    padding: 0.75rem 1.25rem;
+    border: 0;
+    font-size: 1rem;
+    color: white;
+    margin-left: 1rem;
+}
+
+.image.debug{
+    height: 15rem;
+    background-color: lightskyblue;
+    margin: 1rem 0;
+    width: 60%;
+    border: 1px dashed black;
+}
+
+.text.debug{
+    height: 15rem;
+    background-color: violet;
+    margin: 1rem 0;
+    width: 40%;
+    border: 1px dashed black;
+}
+
+.main_section_bg.debug{
+    background-color: gray;
+}
+
+.pre_footer.debug{
+    height: 40rem;
+    background-color: green;
+    margin: 1rem 0;
+    width: 100%;
+    border: 1px dashed black;
+}
+
+.app_footer.debug{
+    background-color: black;
+}
+
+.footer_l.debug{
+    height: 25rem;
+    background-color: violet;
+    margin: 1rem 0;
+    width: calc(100% / 3);
+    border: 1px dashed black;
+}
+
+.footer_r.debug{
+    height: 25rem;
+    background-color: aqua;
+    margin: 1rem 0;
+    width: calc(100% / 4 - 1.5rem);
+    border: 1px dashed black;
+    margin-left: 0.25rem;
+}
+
+.page_end.debug{
+    background-color: orange;
+    margin-top: 2rem;
+    padding: 0.75rem 0;
+    justify-content: space-between;
+
+}
+
+.logo_end.debug{
+    padding: 0.5rem 0;
+    border: 1px dashed black;
+}
+
+.bottone.debug{
+    padding: 0.5rem 0;
+    border: 1px dashed black;
+}
+
+
+
+/* #endregion_debug */
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+li{
+    margin: 0 1rem;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+hr{
+    color: white;
+    margin-top: 1rem;
+}
+
+#hero_p{
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+    font-weight:700;
+}
