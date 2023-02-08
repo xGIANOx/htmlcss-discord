@@ -24,31 +24,36 @@ body{
 }
 /* #endregion_utilities */
 
+/* app_header */
+
 #app_header::after{
     content: "";
     display: table;
     clear: both;
 }
 
-/* #region_debug */
-
 #app_header{
     background-image: url("../img/jumbo.png");
     background-size: cover;
 }
 
-.app_nav.debug{
+.app_nav{
     justify-content: space-between;
     padding: 1rem;
 }
 
 
-.menu.debug{
+.menu{
     justify-content: center;
     padding: 0.5rem 0;
 }
 
-.login.debug{
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.login{
     background-color: white;
     border-radius: 20px;
     justify-content: flex-end;
@@ -57,13 +62,29 @@ body{
     
 }
 
-.heading.debug{
+/* /app_header */
+
+
+/* heading */
+
+.heading{
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+}
+
+#hero_p{
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+    font-weight:700;
 }
 
 .download_button{
@@ -89,36 +110,67 @@ body{
     margin-left: 1rem;
 }
 
+/* /heading */
+
+/* app_main */
+
 .card{
     margin-top: 10rem;
 }
 
 
-.text.debug{
+.text{
     margin: 3rem 0;
     width: 40%;
 }
 
+h1{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
 
+h2{
+    width: 65%;
+    font-size: 1.75rem;
+}
 
-.text.meet.debug{
+.card_p{
+    width: 65%;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+.text.talk{
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-left: 1rem;
+}
+
+.text.fandom{
+    margin-left: 8rem;
+}
+
+.text.meet{
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.image.meet.debug{
+.image.meet{
     margin: 4rem 0;
 }
 
 #text_meet{
     width: 70%;
 }
-.main_section_bg.debug{
+.main_section_bg{
     background-color: lightgray;
 }
 
-.pre_footer.debug{
+.pre_footer{
     
     margin: 1rem 0;
     width: 100%;
@@ -168,16 +220,16 @@ body{
     margin-top: 2rem;
 }
 
-.app_footer.debug{
+.app_footer{
     background-color: #23272a;
 }
 
-.footer_l.debug{
+.footer_l{
     margin: 1rem 0;
     width: calc(100% / 3);
 }
 
-.footer_r.debug{
+.footer_r{
     margin: 1rem 0;
     width: calc(100% / 4 - 1.5rem);
     margin-left: 0.25rem;
@@ -190,6 +242,15 @@ body{
     width: 80%;
 }
 
+ul{
+    list-style: none;
+    
+}
+
+li{
+    margin: 0 1rem;
+}
+
 .li_title{
     color: #6f86d5;
 }
@@ -197,19 +258,26 @@ body{
 .italy{
     margin-top: 1rem;
 }
+
 .language{
     color: white;
     margin-left: 0.5rem;
     font-size: 0.75rem;
 }
-.page_end.debug{
+
+hr{
+    color: white;
+    margin-top: 1rem;
+}
+
+.page_end{
     margin-top: 2rem;
     padding: 0.75rem 0;
     justify-content: space-between;
 
 }
 
-.logo_end.debug{
+.logo_end{
     padding: 0.5rem 0;
 }
 
@@ -221,69 +289,4 @@ body{
     font-size: 1rem;
     color: white;
     margin: auto;
-}
-
-
-
-
-
-/* #endregion_debug */
-
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-ul{
-    list-style: none;
-    
-}
-
-li{
-    margin: 0 1rem;
-}
-
-h1{
-    color: white;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 2.5rem;
-}
-
-h2{
-    width: 65%;
-    font-size: 1.75rem;
-}
-
-.card_p{
-    width: 65%;
-    font-size: 0.9rem;
-    margin-top: 1rem;
-}
-
-.text.talk{
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    margin-left: 1rem;
-}
-
-.text.fandom{
-    margin-left: 8rem;
-}
-hr{
-    color: white;
-    margin-top: 1rem;
-}
-
-#hero_p{
-    color: white;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.5;
-    font-weight:700;
 }
